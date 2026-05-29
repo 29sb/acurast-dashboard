@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 云朵图标 -->
+    <path
+        android:fillColor="#7C3AED"
+        android:pathData="M54,32c-8.84,0 -16,7.16 -16,16c0,0.28 0.01,0.56 0.03,0.84C32.34,50.09 28,55.37 28,61.67C28,68.95 33.97,74.92 41.25,75h27.5C76.03,74.92 82,68.95 82,61.67c0,-6.3 -4.34,-11.58 -10.03,-12.83C71.99,48.56 72,48.28 72,48C72,39.16 64.84,32 56,32H54z" />
+    <!-- 信号波纹 -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M46,45h16v3H46zM42,52h24v3H42zM38,59h32v3H38z" />
+</vector>
