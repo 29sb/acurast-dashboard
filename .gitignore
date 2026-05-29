@@ -7,8 +7,8 @@
 /captures
 .externalNativeBuild
 .cxx
-*.apk
-*.aab
+**/build/*.apk
+**/build/*.aab
 app/build/
 app/release/
 local.properties
