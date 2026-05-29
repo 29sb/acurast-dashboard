@@ -23,6 +23,12 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.create("release") {
+                storeFile = file("../release.keystore")
+                storePassword = "acurast123"
+                keyAlias = "acurast"
+                keyPassword = "acurast123"
+            }
         }
     }
 
